@@ -1,6 +1,7 @@
 import './App.css'
 import Button from "./components/Button.jsx";
 import Product from "./components/Product.jsx";
+import Tile from "./components/Tile.jsx";
 
 function App() {
     return (
@@ -54,26 +55,21 @@ function App() {
                 />
             </main>
             <footer>
-                <section>
+                <Tile>
                     <img/>
-                        <h2>title</h2>
-                        <p>paragraaf</p>
-                </section>
-                <section>
-                    <img/>
-                    <h2>title</h2>
-                    <p>paragraaf</p>
-                </section>
-                <section>
-                    <img/>
-                    <h2>title</h2>
-                    <p>paragraaf</p>
-                </section>
-                <section>
-                    <img/>
-                    <h2>title</h2>
-                    <p>paragraaf</p>
-                </section>
+                    <h2>the brand</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aspernatur assumenda autem delectus deleniti dignissimos dolores exercitationem explicabo in. Ab adipisci, assumenda dolor eaque eius excepturi expedita, fugiat molestias nesciunt nisi optio praesentium provident quaerat quod similique soluta, tempore.</p>
+                </Tile>
+                <Tile>
+                    <img src="src/assets/brand.png" alt="brand picture"/>
+                </Tile>
+                <Tile>
+                    <img src="src/assets/our_story.png"/>
+                </Tile>
+                <Tile>
+                    <h2>our story</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto, cupiditate dolorum eius eveniet explicabo illum ipsum iure, laboriosam maiores molestias nobis porro quae quaerat saepe sed temporibus tenetur veritatis?</p>
+                </Tile>
             </footer>
         </>
     )
